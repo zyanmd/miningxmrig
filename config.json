@@ -2,7 +2,7 @@
   "pool": "pool.supportxmr.com:3333",
   "backup_pool": "gulf.moneroocean.stream:10128",
   "wallet": "YOUR_MONERO_WALLET_ADDRESS",
-  "worker_name": "Ryzen7-Worker",
+  "worker_name": "Worker1",
 
   "performance": {
     "auto_detect_threads": true,
