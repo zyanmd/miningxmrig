@@ -1,0 +1,12 @@
+# Binaries & Driver (diunduh otomatis oleh download_xmrig.bat)
+xmrig.exe
+*.sys
+*.exe
+*.zip
+*.tar.gz
+SHA256SUMS*
+
+# Logs & Temp
+*.log
+temp_extract/
+xmrig_temp/

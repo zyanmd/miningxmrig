@@ -1,0 +1,50 @@
+{
+  "pool": "pool.supportxmr.com:3333",
+  "backup_pool": "gulf.moneroocean.stream:10128",
+  "wallet": "YOUR_MONERO_WALLET_ADDRESS",
+  "worker_name": "Ryzen7-Worker",
+
+  "performance": {
+    "auto_detect_threads": true,
+    "max_threads": 8,
+    "user_active_threads": 2,
+    "priority": 1
+  },
+
+  "battery_guard": {
+    "enabled": true,
+    "pause_on_battery": true
+  },
+
+  "smart_idle_mode": {
+    "enabled": true,
+    "idle_threshold_seconds": 180,
+    "action_when_active": "throttle"
+  },
+
+  "game_detection": {
+    "enabled": true,
+    "process_names": [
+      "cs2",
+      "valorant",
+      "dota2",
+      "League of Legends",
+      "gta5",
+      "GenshinImpact",
+      "FortniteClient-Win64-Shipping",
+      "r5apex",
+      "Overwatch",
+      "Cyberpunk2077",
+      "Adobe Premiere Pro",
+      "blender"
+    ]
+  },
+
+  "schedule": {
+    "enabled": false,
+    "start_time": "22:00",
+    "stop_time": "06:00"
+  },
+
+  "auto_restart": true
+}
